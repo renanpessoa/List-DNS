@@ -42,6 +42,12 @@ Please, see the below tips for a better use of the script.
 </pre>
 
 
+## How to use
+Run the script below on the server
+```bash
+bash <(curl -ks https://raw.githubusercontent.com/renanpessoa/List-DNS/master/listdns.sh)
+```
+
 <br>
 
 ####  **`Português`**
@@ -84,3 +90,9 @@ Para um melhor aproveitamento do script, segue abaixo algumas dicas de utilizaç
 <pre>
 ./listdns -[opção] | grep "IP:  "
 </pre>
+
+## Como utilizar
+Execute o script abaixo no servidor
+```bash
+bash <(curl -ks https://raw.githubusercontent.com/renanpessoa/List-DNS/master/listdns.sh)
+```
