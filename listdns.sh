@@ -4,6 +4,8 @@
 # Date: 30/Setembro/2016
 # Version: 1.0
 
+echo -e  "\e[90mVersion 1.0 - (renanhpessoa@gmail.com)\e[0;00m\n";
+
 #. Install whois .#
 whois --version &> /dev/null
 [[ `echo $?` != 0 ]] && yum -y install jwhois &> /dev/null
